@@ -22,7 +22,7 @@ app.directive('superhero', function() {
 		},
 
 		link: function (scope, element) {
-			element.addClass('btn btn-primary');
+			element.addClass('button');
 			element.bind('mouseenter', function() {
 				console.log(scope.abilities);
 			})

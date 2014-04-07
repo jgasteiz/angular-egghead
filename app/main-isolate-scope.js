@@ -12,8 +12,8 @@ app.directive('kid', function() {
 		scope: {
 			done: "&"
 		},
-		template: '<input class="form-control" type="text" ng-model="chore">' +
+		template: '<input type="text" ng-model="chore">' +
 			'<h1>{{chore}}</h1>' +
-			'<div class="btn btn-default" ng-click="done({chore:chore})">Done</div>'
+			'<div class="button" ng-click="done({chore:chore})">Done</div>'
 	}
 })

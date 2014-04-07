@@ -1,0 +1,1 @@
+Repo for following some of angular.js video lessons in [egghead.io](https://egghead.io/technologies/angularjs).
