@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular tutorial</title>
+	<link rel="stylesheet" href="bower_components/foundation/css/foundation.css"/>
+	<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div ng-app="phoneApp">
+
+	<div ng-controller="AppCtrl">
+
+		<p>Selected network: {{network}}</p>
+
+		<phone number="555-1234" network="network" make-call="leaveVoicemail(number, message)"></phone>
+		<phone number="555-1234" network="network" make-call="leaveVoicemail(number, message)"></phone>
+		<phone number="911" network="network" make-call="leaveVoicemail(number, message)"></phone>
+
+	</div>
+
+</div>
+
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="main-isolate-scope-review.js"></script>
+
+</body>
+</html>
