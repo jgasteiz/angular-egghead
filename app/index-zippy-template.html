@@ -9,14 +9,6 @@
 <body>
 
 <div ng-app="app">
-
-	<script type="text/ng-template" id="zippy.html">
-		<div>
-			<h3 ng-click="toggleContent()">{{title}}</h3>
-			<div ng-show="isContentVisible" ng-transclude></div>
-		</div>
-	</script>
-
 	<input type="text" ng-model="model.title"/>
 	<input type="text" ng-model="model.content"/>
 
@@ -28,7 +20,7 @@
 
 <script type="text/javascript" src="bower_components/angular/angular.js"></script>
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="main-zippy-template.js"></script>
 
 </body>
 </html>

@@ -10,19 +10,9 @@
 
 <div ng-app="app">
 
-	<script type="text/ng-template" id="zippy.html">
-		<div>
-			<h3 ng-click="toggleContent()">{{title}}</h3>
-			<div ng-show="isContentVisible" ng-transclude></div>
-		</div>
-	</script>
-
-	<input type="text" ng-model="model.title"/>
-	<input type="text" ng-model="model.content"/>
-
-	<zippy title="{{model.title}}">
-		The content is: {{model.content}}
-	</zippy>
+	<div ng-controller="MyController">
+		<div my-directive></div>
+	</div>
 
 </div>
 
