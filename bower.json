@@ -15,6 +15,7 @@
   "dependencies": {
     "angular": "~1.2.16",
     "foundation": "~5.2.2",
-    "jquery": "*"
+    "jquery": "*",
+    "angular-route": "~1.2.16"
   }
 }
